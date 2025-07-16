@@ -6,7 +6,7 @@ import { ProfileCard } from './compponents/profile-card/profile-card';
 @Component({
   selector: 'app-root',
   //imports: [RouterLink],
-  imports: [ProfileCard, CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterOutlet, RouterLink],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

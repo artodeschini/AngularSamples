@@ -1,13 +1,17 @@
-# CursoAngular
+# Curso Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+
+```bash
+npx -p @angular/cli ng new CursoAngular
+```
 
 ## Development server
 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm run ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
@@ -18,6 +22,7 @@ Angular CLI includes powerful code scaffolding tools. To generate a new componen
 
 ```bash
 ng generate component component-name
+npm run g c component-name
 ```
 
 For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:

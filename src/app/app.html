@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Angular</title>
 </head>
-<body>
-    <ul>
-        <li><a routerLink="card-profile">Card Profile</a>
 
-    </ul>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a routerLink="card-profile">Card Profile</a>
+            <a routerLink="count">Counter</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
     <router-outlet></router-outlet>
 
 </body>
+
 </html>
