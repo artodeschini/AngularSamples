@@ -41,6 +41,7 @@ export class StopWatch {
   reset() {
     this.isRunning = false;
     clearInterval(this.intervalRef);
+    this.elapsedTime = 0;
     console.log("Stopwatch reset");
   }
 }
